@@ -25,18 +25,22 @@
 #intro{
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
 }
 
-.img-intro {
+.img-intro img{
     display: inline-block;
-    height: 94.4vh;
+    height: 100vh;
+    width: 50vw;
 }
 
 .container {
     font-family: 'Unbounded', cursive;
     display: inline-block;
-    width: 100vw;
-    height: 94.4vh;
+    height: 101vh;
+    width: 50vw;
     text-align: center;
     padding: 300px 0;
 }
@@ -70,8 +74,6 @@
 #about {
     display: flex;
     height: 100%;
-    background-color: yellow;
-
 }
 
 .img-second img{
@@ -80,7 +82,6 @@
 
 .img-second {
     display: inline-block;
-    background-color: red;
     width: 50vw;
     height: 100vh;
 
