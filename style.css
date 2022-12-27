@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+
 #list {
     text-align: center;
     padding: 10px 0 20px 0;
@@ -22,12 +24,12 @@
     color: black;
 }
 
+/* Section Intro*/
+
 #intro{
     display: flex;
-    justify-content: space-between;
     height: 100%;
     width: 100%;
-
 }
 
 .img-intro img{
@@ -39,19 +41,26 @@
 .container {
     font-family: 'Unbounded', cursive;
     display: inline-block;
-    height: 101vh;
+    height: 100vh;
     width: 50vw;
     text-align: center;
     padding: 300px 0;
 }
+/* END - intro*/
 
+/* Expand less and more*/
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
     'opsz' 48;
+}
 
+.material-symbols-outlined a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px;
     font-size: 25px;
     border: solid 1px;
     border-radius: 50%;
@@ -70,7 +79,9 @@
   'GRAD' 0,
   'opsz' 48;
 }
+/* END - expand less and more*/
 
+/* Section About */
 #about {
     display: flex;
     height: 100%;
@@ -95,3 +106,4 @@
     height: 100vh;
     padding: 300px 20px;
 }
+/* END - About*/
