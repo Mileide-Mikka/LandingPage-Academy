@@ -4,8 +4,6 @@
     margin: 0;
 }
 
-
-
 #list {
     text-align: center;
     padding: 10px 0 20px 0;
@@ -24,12 +22,12 @@
     color: black;
 }
 
-/* Section Intro*/
+/* Intro Section */
 
 #intro{
     display: flex;
-    height: 100%;
-    width: 100%;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .img-intro img{
@@ -44,7 +42,7 @@
     height: 100vh;
     width: 50vw;
     text-align: center;
-    padding: 300px 0;
+    padding: 300px 20px;
 }
 /* END - intro*/
 
@@ -81,10 +79,11 @@
 }
 /* END - expand less and more*/
 
-/* Section About */
+/* About Section */
 #about {
     display: flex;
-    height: 100%;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .img-second img{
@@ -107,3 +106,41 @@
     padding: 300px 20px;
 }
 /* END - About*/
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-container {
+    font-family: 'Unbounded', cursive;
+    display: inline-block;
+    height: 100vh;
+    width: 55vw;
+    text-align: center;
+    padding: 300px 20px;
+
+    background-color: rgb(241, 241, 241);
+}
+
+.map-contact iframe{
+    display: inline-block;
+    height: 100vh;
+    width: 49vw;
+}
+
+.contact-container button {
+    padding: 20px;
+    border: none;
+}
+
+.contact-container button a{
+    text-decoration: none;
+    color: green;
+}
+
+
+/* Contact section */
